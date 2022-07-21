@@ -1,3 +1,11 @@
 {
-        "workspaceFolder": "/mnt"
+		"workspaceFolder": "/workspace",
+		"dockerComposeFile": [
+			"../docker-compose.yml",
+			"docker-compose.yml"
+		],
+		"service": "mypython",
+		"customizations": {
+			"vscode": {}
+		}
 }
